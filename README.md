@@ -1,3 +1,10 @@
+![](https://img.shields.io/static/v1?label=technology&message=SEO&color=blue)
+![](https://img.shields.io/static/v1?label=technology&message=Analytics&color=red)
+![](https://img.shields.io/static/v1?label=technology&message=SearchConsole&color=red)
+![](https://img.shields.io/static/v1?label=technology&message=TagManager&color=red)
+![](https://img.shields.io/static/v1?label=school&message=platzi&color=green)
+![](https://img.shields.io/static/v1?label=course&message=CursoDeBuenasPrácticasDeSEO&color=green)
+
 # Buenas prácticas de SEO
 
 ## Qué es SEO?
