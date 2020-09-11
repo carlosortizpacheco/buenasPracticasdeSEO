@@ -131,10 +131,20 @@
   <url>
     <loc>http://www.example.com</loc> /*La Url de mi página*/
     <lastmod>2020-01-01</lastmod> /*cuando se modificó por última vez*/
-    <changefreq>monthly</changefreq> /¨*Cada cuanto tiempo quiero que indexe la página*/
-    <priority>0.8</priority>
+    <changefreq>monthly</changefreq> /*Cada cuanto tiempo quiero que indexe la página*/
+    <priority>0.8</priority> /*puedo dar prioridad a distintas partes de la página*/
   </url>
-``
+```
+
+ ```html
+<urlset >
+  <url>
+    <loc>http://www.example.com</loc> /*La Url de mi página*/
+    <lastmod>2020-01-01</lastmod> /*cuando se modificó por última vez*/
+    <changefreq>monthly</changefreq> /*Cada cuanto tiempo quiero que indexe la página*/
+    <priority>0.8</priority> /*puedo dar prioridad a distintas partes de la página*/
+  </url>
+```
 
 
 
