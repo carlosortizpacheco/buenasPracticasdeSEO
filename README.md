@@ -120,3 +120,24 @@
 - Ya con una cuenta de GMail ir a Tag Manager, colocar los datos de la página y pegar el código que dan en el `head` y en el `body`
 - Crear cuenta de analytics
 - Search Console; enfocado a lo orgánico. Esta dentro de Analytics > Adquisición.
+- Porcentaje de rebote; relación de personas que entran a la página y se salen luego luego.
+- Conocer desde que navegador se mete más la gente. Varia por país (España, Bing).
+- CTR; relación entre clic e impresiones.
+
+### Indexación con Sitemap.xml y Robots.txt
+- sitemaps.org; 
+```html
+<urlset >
+  <url>
+    <loc>http://www.example.com</loc> /*La Url de mi página*/
+    <lastmod>2020-01-01</lastmod> /*cuando se modificó por última vez*/
+    <changefreq>monthly</changefreq> /¨*Cada cuanto tiempo quiero que indexe la página*/
+    <priority>0.8</priority>
+  </url>
+``
+
+
+
+
+
+
