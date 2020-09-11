@@ -1,4 +1,4 @@
-# Buenas Practicas de SEO
+# Buenas prácticas de SEO
 
 ## Qué es SEO?
 - Es la optimizacion de un sitio web para lograr la indexación en los motores de búsqueda y así mejorar su visibilidad en los resultados orgánicos.
@@ -107,3 +107,9 @@
 ### Tipos de redirecciones
 - **301**; Se trata de una redirección permanente, contenido eliminado o movido de manera perpetua.
 - **302**; Se trata de una redirección un poco más ambigua y se utiliza para hacer redirecciones temporales (direcciones para promociones-black friday etc.).
+
+
+### Vinculación de Tag Manager, analytics y Search Console
+- Ya con una cuenta de GMail ir a Tag Manager, colocar los datos de la página y pegar el código que dan en el `head` y en el `body`
+- Crear cuenta de analytics
+- Search Console; enfocado a lo orgánico. Esta dentro de Analytics > Adquisición.
