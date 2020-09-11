@@ -102,5 +102,8 @@
 ```
 + Para implementar una redireccion 301?
   + Al fichero .htaccess de tu hosting o servidor debes agregar el código que obtienes de la página siguiente: https://www.infranetworking.com/redireccion-301-302
-  + 301; Se trata de una redirección permanente, contenido eliminado o movido de manera perpetua.
   
+
+### Tipos de redirecciones
+- **301**; Se trata de una redirección permanente, contenido eliminado o movido de manera perpetua.
+- **302**; Se trata de una redirección un poco más ambigua y se utiliza para hacer redirecciones temporales (direcciones para promociones-black friday etc.).
