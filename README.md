@@ -225,11 +225,32 @@
 - searchConsole; web tools > herramientas de pruebas.
 - Pruebas de datos estructurados
 - se incluye en el <head>:
- ```html
+
+```html
 <script type='application/ld+json'>
 
 </script>
 ```
-  
+
+### Fragmentos Destacados
++ Cluster que Google tiene en cuenta
+  + Titulos con preguntas
+  + H2 y H3, buena jerarquía
+  + Listas en el primer párrafo del contenido
+  + Tablas, columnas y filas
+  + Estar en la primera página
+
+### Vinculación de redes
+- Utilizar OpenGraph Generator
+- Es lo que se muestra cuando copiamos el link y lo pegamos en alguna red social.
+
+
+
+
+
+
+
+
+
 
 
