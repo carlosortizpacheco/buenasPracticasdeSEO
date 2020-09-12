@@ -135,16 +135,40 @@
     <priority>0.8</priority> /*puedo dar prioridad a distintas partes de la página*/
   </url>
 ```
-
  ```html
-<urlset >
-  <url>
-    <loc>http://www.example.com</loc> /*La Url de mi página*/
+<sitemapindex xmlns='htts://sitemaps.org/schemas/sitemap/0.9' >
+  <sitemap>
+    <loc>http://www.example.com/sitemap1.xml.gz</loc> /*La Url de mi página, en ingles*/
     <lastmod>2020-01-01</lastmod> /*cuando se modificó por última vez*/
-    <changefreq>monthly</changefreq> /*Cada cuanto tiempo quiero que indexe la página*/
-    <priority>0.8</priority> /*puedo dar prioridad a distintas partes de la página*/
-  </url>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.example.com/sitemap2.xml.gz</loc> /*La Url de mi página, en español*/
+    <lastmod>2020-01-01</lastmod> /*cuando se modificó por última vez*/
+  </sitemap>
+</sitemapindex>
 ```
+- **xml-sitemaps.com**, sirve para generar un xml, para indicarle que indexe lo que le indico.
++ **tools.seobook.com/**, sirve para generarl el robots.txt (para que no indexe lo que le indique).
+  + `Disallow: /playstation/*`; no indexa todo lo que esta dentro de playstation
+  + `Disallow: /playstation$`; no indexa playstation, pero si lo que esta adentro de playstation.
+
+### 404; Personalizada y solución de enlaces rotos (screaming frog)
+- Meter la Url de mi página, screaming frog la escanea y ya veo donde hay 404. Estos los debo de solucionar lo más pronto posible.
+
+### HTTPS, GZIP, Caché, CDN Y Favicon
+- La infraestructura mejora los tiempos de carga y mejoramos la experiencia de usuario.
++ **HTTPS**
+  + Protocolo de seguridad de la transferencia de datos de hipertexto - **versión segura de HTTP.**
+  + Utiliza un cifrado basado en la seguridad de textos SSL/TLS para crear un canal cifrado.
+  + La información sensible (usuario y claves de paso normalmente) no pueda ser usada por un atacante que intercepte la transferencia de datos de la conexión, lo único que obtendrá será un flujo de datos cifrados imposible de descifrar.
++ **GZIP**
+  + Activar la compresión Gzip puede mejorar la velocidad entre un 30% y un 70%.
+  + Ahorro de ancho de banda / transferencia: nuestro sitio web enviará archivos comprimidos.
+  + Velocidad del sitio.
+  + Soporte en todos los navegadores actuales.
+
+
+
 
 
 
