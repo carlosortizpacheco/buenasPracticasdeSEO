@@ -166,12 +166,70 @@
   + Ahorro de ancho de banda / transferencia: nuestro sitio web enviará archivos comprimidos.
   + Velocidad del sitio.
   + Soporte en todos los navegadores actuales.
++ **Memoria Caché**
+  + Evitamos tener que colver a cargar toda la web desde cero y consumir recursos del servidor innecesarios.
+  + Si entras 2 veces en la misma página web y cuentas con memoria caché, el sitio cargará mucho más rápidp porque ese archivo estará almacenado en la memoria del PC, en vez del servidor de la web.
++ **CDN**; Content Delivery Network
+  + Permite que los contenidos se sirvan lo más rápidp posible y aumente la velodidad de un sitio.
+  + Es una red de servidores distribuidos de forma estratégica en diferentes partes del mundo.
+  + *Ventajas*:
+    + Alta velocidad y rendimiento
+    + Ahorro de recursos
+    + Mayor seguridad
++ **Favicon**
+  + Imagen cuadrada de 16*16 o 32*32 de cualquier formato
+  + Extensión *.ico*
+  
+ ```html
+<link rel='icon' type='ico' href='/imagenes/favicon.ico' />
+```
 
+### Jerarquía con Urls amigables y optimizadas
++ Dominio **https://www.clicactualizado.com**
+  + 1 Nivel **/juegos**
+  + 2 Nivel **/juegos/playstation**
+  + 3 Nivel **/juegos/playstation/minecraft**
++ Anatomia de una Url
+  + https://www.clicactualizado.com/juegos/playstation/minecraft
+  + Protocolo (https://)
+  + Subdominio (www)
+  + Dominio (clicactualizado)
+  + TLD; Top Level Domain (.com)
+  + Subcarpetas (juegos/playstation)
+  + Páginas (minecraft)
+- Separar las palabras con guiones medios.
+- No deben tener caracteres especiales (tíldes, mayúsculas, signos)
 
+### Bread Crumbs (migajas de pan)
+- Muy importante para el tema de las Urls.
+- Mecanismo que informa al usuario su localización dentro de la estructura jerárquica del sitio web.
+- Mejor Navegabilidad y UX.
+- Disminuye la tasa de rebote.
+- Es un elemento en el HTML que me muestra la ruta para llegar a esa página: `juegos / playstation / minecraft`
 
+### Microdatos
++ **Schema**
+  + El marcado de datos estructurado es la forma de dotar de información semántica a una página web para que los *bots* o arañas que indexan la información la puedan entender y clasificar.
+  + Qué marcados podemos lograr:
+    + Artículos
+    + Eventos
+    + Recetas
+    + Productos
+    + BreadCrumb
+    + Páginas de FAQ
+    + Organización
+    + Persona
+    + Video
+    + Review
+- schema.org; pagina para ver los tipos más comunes de schemas.
+- searchConsole; web tools > herramientas de pruebas.
+- Pruebas de datos estructurados
+- se incluye en el <head>:
+ ```html
+<script type='application/ld+json'>
 
-
-
-
+</script>
+```
+  
 
 
