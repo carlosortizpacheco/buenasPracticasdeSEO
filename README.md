@@ -314,8 +314,19 @@
     + Tráfico orgánico (sesiones, usuarios, landing pages)
     + Posición de la keywords
     + Page Speed
-    + DA y PA
+    + DA y PA (Autoridad de Dominio y Autoridad de Página)
+    + Indexación
+    + Actualización de Sitemap
+    + Envio de indexación de páginas nuevas
+    + Enlaces rotos
 
-
+### Recomendaciones finales
+- SIEMPRE realizar un diagnóstico, al recibir una cuenta, para tener un punto cero.
+- Contar con herramientas necesarias para medir y monitorear.
+- Realizar benchmark y tomar las buenas prácticas de la competencia.
+- Organizar de las tareas más importantes a las menos.
+- Estrategias de SEO son de mediano-largo plazo.
+- Tener claros los objetivos de la empresa o negocio.
+- Identificar a las personas encargadas de cada labor.
 
 
