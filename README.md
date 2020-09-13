@@ -231,7 +231,6 @@
 
 </script>
 ```
-
 ### Fragmentos Destacados
 + Cluster que Google tiene en cuenta
   + Titulos con preguntas
@@ -244,12 +243,78 @@
 - Utilizar OpenGraph Generator
 - Es lo que se muestra cuando copiamos el link y lo pegamos en alguna red social.
 
+### Alertas y buenas prácticas 
+- Se utiliza *Page speed insights*
+- Se coloca la Url de nuestra página, para que haga la evaluación.
+- Se puede inspeccionar la página > auditar. Califica la página.
 
+### SEO Local
+- Google mybusiness, se crea la empresa.
+- Aquí se configura la ubicación de mi tienda en fisico.
 
+### Link Building
+- Enlaces de nuestra página en otras páginas.
+- Buscar quién está escribiendo de nosotros, pero no nos ha enlazado.
+- Crear alertas de temas relacionados.
+- Sugerir generación de contenido nuevo.
+- Buscar nuestra página en el buscador y ver que otras páginas estan hablando de nosotros. Entrar a esas páginas y checar si tienen un link en el texto de nuestra página. Si no, tratar de contactarlos y negociar para que hagan el link building.
+- Google Alerts; lo configuro para que me avise acerca de keywords, que me interesen, en contenido de otras páginas.
 
+### Crear un diagnostico SEO
++ Estos son los aspectos SEO para tomar en cuenta:
+  + Dominio
+    + Canonical
+    + Redirecciones
+  + Indexación
+    + Analytics
+    + Search Console
+    + Sitemap.xml
+    + Robots.txt
+  + Infraestructura
+    + Solucion 404
+    + HTTPS
+    + GZip
+    + Caché
+    + CDN y Favicon
+  + Estructura de Urls
+    + Urls amigables y Jerarquía
+    + Bread Crumbs
+  + Optimización de contenido
+    + Metadata, titulo y descripción
+    + Etiquetas H, H1 única
+    + Url optimizada
+    + keywords en contenido
+    + Anchor text
+  + Contenido enriquecido
+    + Microdatos
+    + Fragmentos destacados
+  + Social Media
+    + Vinculación de redes
+    + SMO - Youtube
+    + OpenGraph
+  + Tiempos de carga
+    + Status y alertas para mejorar.
+- Entrar a la página *SEO site checkup*, escanea la página en cuanto a SEO y la califica.
+- Lo ideal es que un sitio no pese más de 33 kb.
 
+### Analisis de SEO de la competencia (Benchmark)
+- Identificar que esta haciendo mejor la competencia, copiarlo y mejorarlo despues.
+- Utilizar  *SEO site checkup*
 
+### Crear Reportes con Data Studio
+- Se necesita cuenta de GMail
+- Crear fuentes de datos (analytics, youtube, searchconsole); para crear la conexión de datos.
+- Crear dashbard tipo Qliksense.
 
+### Administración de tareas SEO constantes.
+- Trabajo constante
+- Debo de medir constantemente para saber que esta funcionando.
++ Monitoreo de tareas
+  + Medición:
+    + Tráfico orgánico (sesiones, usuarios, landing pages)
+    + Posición de la keywords
+    + Page Speed
+    + DA y PA
 
 
 
