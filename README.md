@@ -177,7 +177,7 @@
     + Ahorro de recursos
     + Mayor seguridad
 + **Favicon**
-  + Imagen cuadrada de 16*16 o 32*32 de cualquier formato
+  + Imagen cuadrada de 16X16 o 32X32 de cualquier formato
   + Extensión *.ico*
   
  ```html
